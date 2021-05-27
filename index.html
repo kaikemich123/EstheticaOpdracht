@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+
+  <title>Esthetica Taak: Piet Mondriaan</title>
+  <meta name="description" content="Opdracht Voor Esthetica">
+  <meta name="author" content="Kai Michiels">
+
+  <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+<div id="intro">
+    <h1>Esthetica Creative Opdracht</h1>
+    <h2 style="margin-top: -15px;">Piet Mondriaan Schilderij Met Willekeurige Kleuren Door Kai Michiels</h2>
+    <h3>Instructies: Om nieuwe kleuren te zien, herlaad de webpagina! Geen kleuren te zien? Je internet browser zal waarschijnlijk verouderd zijn.</h3>
+</div>
+    <div id= "canvas">
+        <div id= "toprow">
+            <div id= "bigbox" class= "right"></div>
+            <div id= "divider1" class= "black right"></div>
+            <div id= "topleftcolumn" class= "right">
+                <div id= "mediumbox"></div>
+                <div id= "divider2" class= "black"></div>
+                <div id= "mediumbox2"></div>
+            </div>
+
+        </div>
+        <div id= "middlerow" class= "black"></div>
+        <div id= "bottomrow">
+            <div id= "bottomrightcolumn" class= "right">
+                <div id= "tinybox"></div>
+                <div id= "divider4" class= "black"></div>
+                <div id= "tinybox2"></div>
+            </div>
+            <div id= "divider3" class= "black right"> </div>
+            <div id= "widebox" class= "right"> </div>
+            <div id= "divider3"class= "black right"> </div>
+            <div id= "smallbox"class= "right"> </div>
+        </div>
+    </div>
+
+<script>
+    var randomColor;
+    randomColor = Math.floor(Math.random()*16777215).toString(16);
+    document.getElementById('bigbox').style.backgroundColor = "#" + randomColor;
+    randomColor = Math.floor(Math.random()*16777215).toString(16);
+    document.getElementById('mediumbox').style.backgroundColor = "#" + randomColor;
+    randomColor = Math.floor(Math.random()*16777215).toString(16);
+    document.getElementById('mediumbox2').style.backgroundColor = "#" + randomColor;
+    randomColor = Math.floor(Math.random()*16777215).toString(16);
+    document.getElementById('tinybox').style.backgroundColor = "#" + randomColor;
+    randomColor = Math.floor(Math.random()*16777215).toString(16);
+    document.getElementById('tinybox2').style.backgroundColor = "#" + randomColor;
+    randomColor = Math.floor(Math.random()*16777215).toString(16);
+    document.getElementById('widebox').style.backgroundColor = "#" + randomColor;
+    randomColor = Math.floor(Math.random()*16777215).toString(16);
+    document.getElementById('smallbox').style.backgroundColor = "#" + randomColor;
+</script>
+</body>
+</html>
