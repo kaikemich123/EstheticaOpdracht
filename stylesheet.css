@@ -1,9 +1,10 @@
 body,
 html {
   background-color: #f6f6f6;
-  background-image: url("https://imgur.com/d97wIYt.png");
-  background-position: center top; /* Center the image */
+  background-image: url("https://imgur.com/gqnpem9.png");
+  background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
 
 #intro {
@@ -22,7 +23,8 @@ html {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid black;
+  margin-bottom: 2rem;
+  border: 15px solid #393939;
 }
 
 #toprow {
