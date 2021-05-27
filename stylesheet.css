@@ -1,6 +1,8 @@
-body,
 html {
   background-color: #f6f6f6;
+}
+
+html {
   background-image: url("https://imgur.com/gqnpem9.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
